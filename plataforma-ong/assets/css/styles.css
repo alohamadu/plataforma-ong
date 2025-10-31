@@ -226,3 +226,19 @@ select:focus {
     font-size: 1.3rem;
   }
 }
+
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+body.dark-mode .header,
+body.dark-mode .footer {
+  background-color: #333;
+}
+body.dark-mode a {
+  color: #ffcc00;
+}
+body.dark-mode .btn {
+  background: #555;
+  color: #fff;
+}
