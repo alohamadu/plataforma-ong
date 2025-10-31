@@ -1,67 +1,55 @@
-🌸 Plataforma ONG Esperança
+# 🌿 Plataforma ONG Esperança
 
-Uma plataforma web desenvolvida para conectar ONGs, voluntários e doadores em prol de causas sociais.
-Projeto acadêmico da disciplina Desenvolvimento Front-End para Web, com foco em acessibilidade, responsividade e impacto social.
+## 📋 Descrição
+Projeto desenvolvido como parte das Experiências Práticas do curso de Ciência da Computação.  
+A aplicação simula uma plataforma de divulgação e cadastro em projetos sociais de uma ONG fictícia, com design responsivo, interatividade e acessibilidade.
 
-🕊️ Sobre o Projeto
+## 🧩 Funcionalidades
+- Estrutura responsiva (CSS Grid + Flexbox)
+- Validação de formulários com JavaScript
+- Simulação de SPA (Single Page Application)
+- Suporte a teclado e leitores de tela (WCAG 2.1 AA)
+- Modo escuro e alto contraste
+- Sistema modular (HTML, CSS, JS organizados)
 
-O terceiro setor tem um papel fundamental na transformação social, mas muitas organizações ainda carecem de presença digital profissional.
-A Plataforma ONG Esperança foi criada para oferecer às ONGs uma solução simples, bonita e acessível — permitindo divulgar projetos, captar recursos e engajar voluntários.
-
-🌼 Páginas do Projeto
-
-🏠 index.html	Página inicial com missão, visão, valores e contato da ONG.
-🌍 projetos.html	Galeria de projetos sociais e oportunidades de voluntariado.
-💌 cadastro.html	Formulário completo para cadastro de novos voluntários.
-
-🧩 Estrutura de Pastas
+## 🧱 Estrutura de Pastas
 
 plataforma-ong/
-│
 ├── index.html
 ├── projetos.html
 ├── cadastro.html
-│
 ├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   ├── js/
-│   │   └── scripts.js
-│   └── images/
-│       ├── hero.jpg
-│       ├── proj1.jpg
-│       ├── proj2.jpg
-│       └── proj3.jpg
-│
+│ ├── css/
+│ │ ├── reset.css
+│ │ ├── styles.css
+│ │ └── styles.min.css
+│ ├── js/
+│ │ ├── main.js
+│ │ └── main.min.js
+│ └── images/
+│ ├── proj1.jpg
+│ ├── proj2.jpg
+│ └── proj3.jpg
 └── README.md
 
-🛠️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
+- HTML5
+- CSS3 (Grid / Flexbox / Variáveis CSS)
+- JavaScript ES6
+- Git / GitHub
 
-HTML5 → Estrutura semântica e acessível
+## 🚀 Deploy
+O site pode ser visualizado diretamente pelo GitHub Pages:  
+🔗 [https://alohamadu.github.io/plataforma-ong](https://alohamadu.github.io/plataforma-ong)
 
-CSS3 → Layout responsivo e design leve
+## 🧭 Versionamento
+- Estratégia: GitFlow simplificada  
+- Commits semânticos e históricos limpos  
+- Branch principal: `main`
 
-JavaScript → Interatividade e validação de formulários
-
-Git & GitHub → Versionamento e publicação
-
-🌈 Funcionalidades
-
-Estrutura HTML5 semântica e validada
-
-Layout mobile-first
-
-Formulário com validação nativa e máscaras de input
-
-Galeria de projetos com imagens otimizadas
-
-Acessibilidade básica (ARIA, contraste, navegação por teclado)
-
-📚 Créditos
-
-💡 Projeto desenvolvido por Maria Eduarda Borges
-🎓 Disciplina: Desenvolvimento Front-End para Web
-🏫 Curso: Bacharelado em Ciência da Computação - UNIPÊ
+## 👩‍💻 Autora
+**Maria Eduarda Borges**  
+[GitHub](https://github.com/alohamadu)
 
 🌻 Licença
 
