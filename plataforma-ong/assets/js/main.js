@@ -59,3 +59,20 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.prepend(mensagem);
   }
 });
+
+// Botão de alternância de modo escuro
+const toggleBtn = document.createElement("button");
+toggleBtn.textContent = "🌙 Alternar modo escuro";
+toggleBtn.classList.add("btn");
+toggleBtn.style.position = "fixed";
+toggleBtn.style.bottom = "20px";
+toggleBtn.style.right = "20px";
+toggleBtn.style.zIndex = "100";
+toggleBtn.setAttribute("aria-label", "Alternar modo escuro");
+
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
+
+document.body.appendChild(toggleBtn);
+
